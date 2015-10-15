@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {chapter}{Table of Contents}{v}{chapter*.1}
+\contentsline {chapter}{List of Tables}{vi}{chapter*.1}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{Acknowledgements}{i}{chapter*.4}
+\contentsline {chapter}{My Contribution}{1}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Compact Muon Solenoid Experiment and LHC }{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Large Hadron Collider}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Compact Muon Solenoid}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Inner Tracking System}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Silicon Pixel Tracker}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Silicon Strip Tracker}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}The Electromagnetic Calorimeter-ECAL}{6}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Hadron Calorimeter-HCAL}{7}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Muon System}{8}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}The Trigger}{8}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}General Structure of the CMS trigger and DAQ}{9}{subsection.1.2.8}
+\contentsline {chapter}{Bibliography}{12}{figure.1.5}

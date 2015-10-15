@@ -1,0 +1,149 @@
+% file: main.tex
+%\documentclass{report}ss[12pt,oneside]{book}
+%\usepackage[final]{feynmf}
+\documentclass[12pt]{report}
+\usepackage[centertags]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{newlfont}
+\usepackage{fancyhdr}
+\usepackage{appendix}
+\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{waqar} % COMSATS adjusted for Style
+\usepackage{XTocinc} %Include Table of Contents as the first entry in TOC
+\usepackage{nomencl}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage{multirow}
+%\makenomenclature
+%                     Faculty of Grad Studies insists on this!?
+%\usepackage[active]{srcltx}  %SRC Specials for DVI search
+% Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]%
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+\newcommand{\doublespacing}{\setlength{\baselineskip}%
+                           {2.0 \defbaselineskip}}
+\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+% MATH -------------------------------------------------------------------
+\newcommand{\A}{{\cal A}}
+\newcommand{\h}{{\cal H}}
+\newcommand{\s}{{\cal S}}
+\newcommand{\W}{{\cal W}}
+\newcommand{\BH}{\mathbf B(\cal H)}
+\newcommand{\KH}{\cal  K(\cal H)}
+\newcommand{\Real}{\mathbb R}
+\newcommand{\Complex}{\mathbb C}
+\newcommand{\Field}{\mathbb F}
+\newcommand{\RPlus}{[0,\infty)}
+%
+\newcommand{\norm}[1]{\left\Vert#1\right\Vert}
+\newcommand{\essnorm}[1]{\norm{#1}_{\text{\rm\normalshape ess}}}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\seq}[1]{\left<#1\right>}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\RE}{\operatorname{Re}}
+\newcommand{\IM}{\operatorname{Im}}
+\newcommand{\Poly}{{\cal{P}}(E)}
+\newcommand{\EssD}{{\cal{D}}}
+
+% THEOREMS ---------------------------------------------------------------
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+%
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+%
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}[section]
+%
+\numberwithin{equation}{section}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+% ----------------------------------------------------------------------
+\setlength{\tclineskip}{1.25\baselineskip}
+% ----------------------------------------------------------------------
+%\nobib
+%\draft
+%\nofront
+
+%\permissionfalse
+\dedicate{To my family.}
+\copyrightyear{\today}
+\submitdate{\today}
+%\convocation{July}{2016}
+
+% ------------------------------------------------------------------------
+\makeindex
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\slshape\rightmark}
+\fancyhead[LO,RE]{\slshape\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0 pt}
+%\renewcommand{\chaptermark}[1]{ \markboth{\chaptername \thechapter.\ #1}{}}
+
+%\renewcommand{\sectionmark}[1]{\markboth{\MakeUppercase {\thesection.\ #1}}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+% ------------------------------------------------------------------------
+
+\begin{document}
+\title{Tripple GEM Trigger and DAQ system using $\mu$TCA at CMS upgrade. }
+\author{Waqar Ahmed}
+\supervisor{\textbf {Prof.Dr.Shahid A. Khan}\\Dean-HOD \\Department of Electrical Engineering.
+\\COMSATS Institute of Information Technology    \\Islamabad,Pakistan}
+\degree{Philosophy of Doctoral} \degreeinitial{Ph.D}
+%\Supervisor{\textbf {Prof.Dr. Gilles De Lentdecker} \\Head
+%\\Data Acquisation System CMS CERN\\Geneva, Switzerland\\ Professor University of Brusel Baljium}
+\beforepreface 
+%------------------------------------------------------------------------
+\input{abstract.tex}
+%------------------------------------------------------------------------
+\input{acknowledgement}
+% ------------------------------------------------------------------------
+\afterpreface %\pagestyle{headings} 
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{%\slshape 
+		\rightmark}
+\fancyhead[LO,RE]{%\slshape 
+		 \leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0 pt}
+\renewcommand{\sectionmark}[1]{\markboth{\MakeUppercase {\thesection.\ #1}}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+% ------------------------------------------------------------------------
+\setlinespacing{1.1}
+% ------------------------------------------------------------------------
+\include{mycontri}
+\include{chapt1}
+%\include{acknowledgement}
+%\include{chapt2}
+%\include{chapt3}
+%\include{concl}
+
+
+%\appendix
+%\input{AppendixA.tex}
+% ------------------------------------------------------------------------
+\setlinespacing{1.1}
+\bibliographystyle{unsrt}
+\bibliography{XBib}
+% =================================================================
+%\printindex
+\end{document}
+% ------------------------------------------------------------------------
+
+

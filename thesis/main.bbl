@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{lhc}
+CERN.
+\newblock {The Large Hadron Collider}.
+\newblock \url{http://public.web.cern.ch/public/en/lhc/lhc-en.html}, 2012.
+
+\bibitem{cms}
+The~CMS Physics.
+\newblock {Detector Performance and Software}.
+\newblock {\em CERN/LHCC 2006-001}, 2006.
+
+\end{thebibliography}
