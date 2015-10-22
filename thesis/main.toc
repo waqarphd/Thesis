@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{Table of Contents}{v}{chapter*.1}
-\contentsline {chapter}{List of Tables}{vi}{chapter*.1}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.1}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.2}
 \contentsline {chapter}{Acknowledgements}{i}{chapter*.4}
 \contentsline {chapter}{My Contribution}{1}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Compact Muon Solenoid Experiment and LHC }{3}{chapter.1}
@@ -15,4 +15,42 @@
 \contentsline {subsection}{\numberline {1.2.6}Muon System}{8}{subsection.1.2.6}
 \contentsline {subsection}{\numberline {1.2.7}The Trigger}{8}{subsection.1.2.7}
 \contentsline {subsection}{\numberline {1.2.8}General Structure of the CMS trigger and DAQ}{9}{subsection.1.2.8}
-\contentsline {chapter}{Bibliography}{12}{figure.1.5}
+\contentsline {chapter}{\numberline {2}Triple GEM detectors}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Small Prototype}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Test Performed with the Small Prototypes}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}Full-Size Triple GEM detectors}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}The GE1/1-VI detector}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Mechanics}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}GE1/1-VI Drift electrode and HV test}{13}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}GE1/1-VI GEM Foils}{13}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}HV Supply}{13}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}HV test of the GE1/1-VI GEM Foils}{13}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}GEM Electronics Board and Electronics}{13}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Cooling}{13}{subsection.2.4.7}
+\contentsline {subsection}{\numberline {2.4.8}HV Divider and Power Supply}{13}{subsection.2.4.8}
+\contentsline {subsection}{\numberline {2.4.9}Assembly}{13}{subsection.2.4.9}
+\contentsline {section}{\numberline {2.5}X-Ray radition test in the Lab}{13}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Result from the test Beam }{13}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}conclusion}{13}{section.2.6}
+\contentsline {chapter}{\numberline {3}Detector Control System}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data Acquisition System in CMS . . . . . .}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Detector Control System}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}General Requirements}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}DCS Architecture}{15}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}DCS Software tools}{15}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Wincc OA}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}JCOP Framework}{15}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}The GEM DCS : Hardware system}{15}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Power System}{15}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}High Voltage and Low Voltage System}{15}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Temperture System}{15}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Cooling System}{15}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Enviroment System}{15}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Design and Development of the GEM DCS}{15}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Finate state Machine}{15}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Alrm Handling}{15}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Configuration Datbase}{15}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}The graphical User Interface}{15}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Intergration in the Central CMS GEM DCS}{15}{subsection.3.5.5}
+\contentsline {section}{\numberline {3.6}Conclusion}{15}{section.3.6}
+\contentsline {chapter}{Bibliography}{16}{section.3.6}

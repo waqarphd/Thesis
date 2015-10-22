@@ -1,17 +1,55 @@
-\BOOKMARK [0][-]{chapter*.1}{Table of Contents}{}
-\BOOKMARK [0][-]{chapter*.1}{List of Tables}{}
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}
-\BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}
-\BOOKMARK [0][-]{chapter*.5}{My Contribution}{}
-\BOOKMARK [0][-]{chapter.1}{Compact Muon Solenoid Experiment and LHC }{}
-\BOOKMARK [1][-]{section.1.1}{Large Hadron Collider}{chapter.1}
-\BOOKMARK [1][-]{section.1.2}{Compact Muon Solenoid}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.2.1}{Inner Tracking System}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.2}{Silicon Pixel Tracker}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.3}{Silicon Strip Tracker}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.4}{The Electromagnetic Calorimeter-ECAL}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.5}{Hadron Calorimeter-HCAL}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.6}{Muon System}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.7}{The Trigger}{section.1.2}
-\BOOKMARK [2][-]{subsection.1.2.8}{General Structure of the CMS trigger and DAQ}{section.1.2}
-\BOOKMARK [0][-]{figure.1.5}{Bibliography}{}
+\BOOKMARK [0][-]{chapter*.1}{Table of Contents}{}% 1
+\BOOKMARK [0][-]{chapter*.1}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{My Contribution}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Compact Muon Solenoid Experiment and LHC }{}% 6
+\BOOKMARK [1][-]{section.1.1}{Large Hadron Collider}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Compact Muon Solenoid}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.2.1}{Inner Tracking System}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.2}{Silicon Pixel Tracker}{section.1.2}% 10
+\BOOKMARK [2][-]{subsection.1.2.3}{Silicon Strip Tracker}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.4}{The Electromagnetic Calorimeter-ECAL}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.5}{Hadron Calorimeter-HCAL}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.6}{Muon System}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.7}{The Trigger}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.8}{General Structure of the CMS trigger and DAQ}{section.1.2}% 16
+\BOOKMARK [0][-]{chapter.2}{Triple GEM detectors}{}% 17
+\BOOKMARK [1][-]{section.2.1}{Small Prototype}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.2}{Test Performed with the Small Prototypes}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Full-Size Triple GEM detectors}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.4}{The GE1/1-VI detector}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.4.1}{Mechanics}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.2}{GE1/1-VI Drift electrode and HV test}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.3}{GE1/1-VI GEM Foils}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.4}{HV Supply}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.5}{HV test of the GE1/1-VI GEM Foils}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.6}{GEM Electronics Board and Electronics}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.7}{Cooling}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.8}{HV Divider and Power Supply}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.9}{Assembly}{section.2.4}% 30
+\BOOKMARK [1][-]{section.2.5}{X-Ray radition test in the Lab}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.5.1}{Result from the test Beam }{section.2.5}% 32
+\BOOKMARK [1][-]{section.2.6}{conclusion}{chapter.2}% 33
+\BOOKMARK [0][-]{chapter.3}{Detector Control System}{}% 34
+\BOOKMARK [1][-]{section.3.1}{Data Acquisition System in CMS . . . . . .}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.2}{The Detector Control System}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.2.1}{General Requirements}{section.3.2}% 37
+\BOOKMARK [2][-]{subsection.3.2.2}{DCS Architecture}{section.3.2}% 38
+\BOOKMARK [1][-]{section.3.3}{DCS Software tools}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.1}{Wincc OA}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.2}{JCOP Framework}{section.3.3}% 41
+\BOOKMARK [1][-]{section.3.4}{The GEM DCS : Hardware system}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.4.1}{Power System}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.2}{High Voltage and Low Voltage System}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.3}{Temperture System}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.4}{Cooling System}{section.3.4}% 46
+\BOOKMARK [2][-]{subsection.3.4.5}{Enviroment System}{section.3.4}% 47
+\BOOKMARK [1][-]{section.3.5}{Design and Development of the GEM DCS}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{Finate state Machine}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.2}{Alrm Handling}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.3}{Configuration Datbase}{section.3.5}% 51
+\BOOKMARK [2][-]{subsection.3.5.4}{The graphical User Interface}{section.3.5}% 52
+\BOOKMARK [2][-]{subsection.3.5.5}{Intergration in the Central CMS GEM DCS}{section.3.5}% 53
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 54
+\BOOKMARK [0][-]{section.3.6}{Bibliography}{}% 55
